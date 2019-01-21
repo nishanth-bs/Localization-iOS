@@ -17,8 +17,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         imageView.image = UIImage(named: "nuclei.png")
-        labelText.text = "Enter your name"
-        textView.placeholder = "Enter your name here"
+      labelText.text = "textLabel".localized
+//        textView.placeholder = "Enter your name here"
     }
 
 }

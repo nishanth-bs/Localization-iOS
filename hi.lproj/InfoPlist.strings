@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  POC Localization
+
+  Created by Nishanth B S on 21/01/19.
+  Copyright © 2019 Nuclei. All rights reserved.
+*/
+"CFBundleDisplayName" = "स्थानीयकरण";
+"CFBundleName" = "स्थानीयकरण";

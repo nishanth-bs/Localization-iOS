@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -26,6 +25,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="textLabel"/>
+                                </userDefinedRuntimeAttributes>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UcD-K9-7i1">
                                 <rect key="frame" x="10" y="90" width="355" height="30"/>
@@ -35,6 +37,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="textFieldPlaceholder"/>
+                                </userDefinedRuntimeAttributes>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FlL-UN-SOB">
                                 <rect key="frame" x="100" y="140" width="175" height="30"/>
@@ -42,6 +47,9 @@
                                     <constraint firstAttribute="height" constant="30" id="7fv-FQ-3AD"/>
                                 </constraints>
                                 <state key="normal" title="Submit"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="submit"/>
+                                </userDefinedRuntimeAttributes>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VbZ-ve-4nX">
                                 <rect key="frame" x="10" y="40" width="80" height="30"/>
@@ -56,12 +64,14 @@
                             <constraint firstItem="VbZ-ve-4nX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="76w-YA-NUY"/>
                             <constraint firstItem="FlL-UN-SOB" firstAttribute="top" secondItem="UcD-K9-7i1" secondAttribute="bottom" constant="20" id="EZr-qJ-Lez"/>
                             <constraint firstItem="B6m-MT-Vhi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="FgF-V9-b7e"/>
+                            <constraint firstItem="VbZ-ve-4nX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="IIV-FT-egB"/>
                             <constraint firstItem="UcD-K9-7i1" firstAttribute="top" secondItem="B6m-MT-Vhi" secondAttribute="bottom" constant="20" id="TSh-MK-gRg"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="B6m-MT-Vhi" secondAttribute="trailing" constant="10" id="URg-pS-APa"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UcD-K9-7i1" secondAttribute="trailing" constant="10" id="Xcc-JE-guq"/>
                             <constraint firstItem="UcD-K9-7i1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="YYD-zX-7T9"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FlL-UN-SOB" secondAttribute="trailing" constant="100" id="a5r-Y2-T3c"/>
                             <constraint firstItem="FlL-UN-SOB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="eUt-0y-TKz"/>
+                            <constraint firstItem="VbZ-ve-4nX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="ln0-Cp-aR3"/>
                             <constraint firstItem="B6m-MT-Vhi" firstAttribute="leading" secondItem="VbZ-ve-4nX" secondAttribute="trailing" constant="10" id="ttf-kX-2ln"/>
                             <constraint firstItem="B6m-MT-Vhi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="vhn-jD-cFg"/>
                         </constraints>
